@@ -16,7 +16,7 @@ export default function Footer({}: Props) {
     
        <p className='font-light text-[#707070] lg:py-10 py-14 text-sm'> 
        Copyright © 2023 
-       designed and build by <a href='https://ui.gugisek.pl/' target='_blank'>gugisek</a></p>
+       designed and build by <a href='https://ui.gugisek.pl/' target='_blank' rel="noreferrer">gugisek</a></p>
     </motion.section>
   )
 }
