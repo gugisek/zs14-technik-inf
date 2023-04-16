@@ -29,9 +29,9 @@ export default function Who_a({}: Props) {
   )
   return (
     <motion.section 
-    initial={{opacity: 0, x: -200}}
+    initial={{opacity: 0, x: 200}}
     whileInView={{opacity: 1, x: 0}}
-    exit={{opacity: 0, x: -200}}
+    exit={{opacity: 0, x: 200}}
     transition={{duration: 1}}
     id='kto' className={` ${readMore ? 'bg-[#ffffff73] text-[#3d3d3d] transition-all duration-300' : 'bg-[#fdfdfd]'}  text-[#3d3d3d] lg:w-3/5 w-[90%] lg:rounded-[97px] rounded-[57px] lg:px-32 px-10 lg:py-24 py-16 leading-tight flex flex-col justify-between my-0 shadow-2xl`}>
         <p className='lg:text-3xl text-xl font-medium'>
