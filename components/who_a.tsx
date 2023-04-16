@@ -48,13 +48,13 @@ export default function Who_a({}: Props) {
         <a onClick={() => setReadMore(!readMore) } 
         href='#kto' 
         className='text-center lg:mb-[-60px] mb-[-30px] pt-5 flex flex-row items-center justify-center gap-2 text-[#5C5C5C] font-medium'>
-          ROZWIŃ WIĘCEJ 
+          ZWIŃ TEKST
           <Image
               src='/more.svg'
               alt='more'
               width={30}
               height={30}
-              className='mt-[5px]'
+              className='mb-[5px] rotate-180'
           />
         </a>
         :
