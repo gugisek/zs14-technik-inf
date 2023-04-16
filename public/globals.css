@@ -88,3 +88,25 @@ html {
   font-family: 'Roboto';
   scroll-behavior: smooth;
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #a9f1c7 #ffffff00;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #63d99c;
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+  }

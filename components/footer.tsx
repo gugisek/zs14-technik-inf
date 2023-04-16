@@ -12,7 +12,8 @@ export default function Footer({}: Props) {
     whileInView={{opacity: 1}}
     exit={{opacity: 0}}
     transition={{duration: 3}}
-    className='w-full text-center min-h-[60vh] flex flex-col justify-end bg-cover' style={{backgroundImage: 'url(pixelr2.png)'}}>
+    className='w-full text-center min-h-[20vh] flex flex-col justify-end bg-cover' >
+        {/* style={{backgroundImage: 'url(pixelr2.png)'}} */}
     
        <p className='font-light text-[#707070] lg:py-10 py-14 text-sm'> 
        Copyright © 2023 
