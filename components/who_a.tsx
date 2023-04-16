@@ -3,6 +3,7 @@
 import React from 'react'
 import Image from 'next/image';
 import { useState } from 'react';
+import { motion } from 'framer-motion'
 
 type Props = {}
 
@@ -27,8 +28,13 @@ export default function Who_a({}: Props) {
     </span>
   )
   return (
-    <section id='kto' className={` ${readMore ? 'bg-[#ffffff73] text-[#3d3d3d]' : 'bg-[#fdfdfd]'} transition-all duration-300 text-[#3d3d3d] mx-[20%] rounded-[97px] px-32 py-24 leading-tight flex flex-col justify-between my-0 shadow-2xl`}>
-        <p className='text-3xl font-medium'>
+    <motion.section 
+    initial={{opacity: 0, x: -200}}
+    whileInView={{opacity: 1, x: 0}}
+    exit={{opacity: 0, x: -200}}
+    transition={{duration: 1}}
+    id='kto' className={` ${readMore ? 'bg-[#ffffff73] text-[#3d3d3d] transition-all duration-300' : 'bg-[#fdfdfd]'}  text-[#3d3d3d] lg:w-3/5 w-[90%] lg:rounded-[97px] rounded-[57px] lg:px-32 px-10 lg:py-24 py-16 leading-tight flex flex-col justify-between my-0 shadow-2xl`}>
+        <p className='lg:text-3xl text-xl font-medium'>
         Technik informatyk jest to osoba, dzięki której cały informatyczny system firmy działa tak, jak trzeba. 
         <br/> <br/>
         Jest on odpowiedzialny jest za <span className='text-[#704BDA]'>konfigurowanie i administrowanie</span> wewnętrzną siecią firmową, ale jego obowiązkiem jest również dbanie o <span className='text-[#C15FCA]'>cyberbezpieczeństwo</span>.
@@ -41,7 +47,7 @@ export default function Who_a({}: Props) {
         {readMore ? 
         <a onClick={() => setReadMore(!readMore) } 
         href='#kto' 
-        className='text-center mb-[-60px] pt-10 flex flex-row items-center justify-center gap-2 text-[#5C5C5C] font-medium'>
+        className='text-center lg:mb-[-60px] mb-[-30px] pt-5 flex flex-row items-center justify-center gap-2 text-[#5C5C5C] font-medium'>
           ROZWIŃ WIĘCEJ 
           <Image
               src='/more.svg'
@@ -54,7 +60,7 @@ export default function Who_a({}: Props) {
         :
         <a onClick={() => setReadMore(!readMore) }
         href='#scrolled'  
-        className='text-center mb-[-60px] pt-10 flex flex-row items-center justify-center gap-2 text-[#5C5C5C] font-medium'>
+        className='text-center lg:mb-[-60px] mb-[-30px] pt-5 flex flex-row items-center justify-center gap-2 text-[#5C5C5C] font-medium'>
           ROZWIŃ WIĘCEJ 
           <Image
               src='/more.svg'
@@ -65,6 +71,6 @@ export default function Who_a({}: Props) {
           />
         </a>
         }
-    </section>
+    </motion.section>
   )
 }

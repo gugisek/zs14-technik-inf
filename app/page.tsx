@@ -6,18 +6,25 @@ import Who from '@components/who'
 import Who_a from '@components/who_a'
 import Abilities from '@components/abilities'
 import Abilities_a from '@components/abilities_a'
+import Why from '@components/why'
+import Why_a from '@components/why_a'
+import Footer from '@components/footer'
+
 
 const inter = Lexend({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <section className='bg-black text-white flex flex-col items-center justify-center gap-10' style={{backgroundImage: 'url(bg.svg)'}}>
+    <section className='bg-black text-white flex flex-col items-center justify-center gap-10 overscroll-y-none overflow-x-hidden' style={{backgroundImage: 'url(bg.svg)'}}>
       <Hero />
-      <Desc />
       <Who />
       <Who_a />
       <Abilities />
       <Abilities_a />
+      <Why />
+      <Why_a />
+      <Footer />
+      
     </section>
   )
 }

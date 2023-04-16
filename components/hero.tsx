@@ -18,7 +18,7 @@ export default function Hero({}: Props) {
         <motion.div
         initial={{ scale: 1 }}
         
-        className='flex sm:flex-row flex-col justify-center items-center gap-5'
+        className='flex sm:flex-row flex-col justify-center items-center gap-5 lg:mt-0 mt-[-150px]'
         
         >
           <motion.div 
@@ -49,13 +49,13 @@ export default function Hero({}: Props) {
           exit={{ x: 100, opacity: 0 }}
           transition={{ duration: 1 }}
           >
-            <h1 className='font-bold text-5xl sm:text-left text-center'>TECHNIK INFORMATYK</h1>
+            <h1 className='font-bold lg:text-5xl text-3xl sm:text-left text-center'>TECHNIK INFORMATYK</h1>
             <motion.p
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0,  y: 30 }}
             transition={{ duration: 1 }}
-            className='text-gray-700 text-2xl sm:text-left text-center'>W Zespole Szkół nr. 14 w Warszawie</motion.p>
+            className='text-gray-700 lg:text-2xl text-xl sm:text-left text-center'>w Zespole Szkół nr. 14 w Warszawie</motion.p>
           </motion.div>
         </motion.div>
         <motion.a 
@@ -65,13 +65,9 @@ export default function Hero({}: Props) {
         exit={{ opacity: 0 }}
         transition={{ duration: 1 }}
         >
-          <Image
-                  src='/arrow.svg'
-                  alt='scroll down'
-                  width={50}
-                  height={50}
-                  className='absolute sm:bottom-40 bottom-20 animate-bounce'
-            />
+          <img src="arrow.svg" alt="" 
+          className='absolute sm:bottom-40 bottom-20 left-1/2 ml-[-25px] animate-bounce w-[50px] h-[50px]]'
+          />
         </motion.a>
       </motion.div>
   )

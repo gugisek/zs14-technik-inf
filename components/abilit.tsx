@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image';
@@ -17,7 +19,8 @@ export default function Abilit({name, image, desc}: Props) {
                 onMouseEnter={() => setHover(true)}
                 onMouseLeave={() => setHover(false)}
                 onClick={() => setHover(!hover)}
-                className=' w-[47%] flex flex-col h-[25vw] shadow-2xl rounded-[60px] '
+                className='hover:scale-110 transition-all duration-300 lg:w-[47%] w-[100%]  flex flex-col justify-end lg:h-[25vw] shadow-2xl rounded-[60px]'
+
                 >
                 
                     {/* <div 
@@ -31,8 +34,8 @@ export default function Abilit({name, image, desc}: Props) {
                         <p className={`text-[#3d3d3d] text-center py-7 font-medium text-xl transition-all duration-300 w-full`}>{desc}</p>
                     </div> */}
 
-                <img src={image} alt="" className={`${hover ? 'opacity-0 h-0' : 'h-4/5 '} object-cover rounded-tl-[60px] rounded-tr-[60px] transition-all duration-300`} />
-                <p className={`${hover ? 'h-4/5 p-14' : 'opacity-0 h-0'}  text-xl transition-all duration-300 text-black`}>{desc}</p>
+                <img src={image} alt="" className={`${hover ? 'opacity-0 absolute top-0 h-0' : 'h-4/5 '} object-cover rounded-tl-[60px] rounded-tr-[60px] transition-all duration-300`} />
+                <p className={`${hover ? 'h-4/5 p-14' : 'opacity-0 top-0 absolute'}  text-xl transition-all duration-300 text-black`}>{desc}</p>
                 <p className={`text-[#fdfdfd] h-1/5 bg-[#A0A7EE] rounded-bl-[60px] rounded-br-[60px] text-center pb-7 pt-8 font-bold text-2xl transition-all duration-300 w-full`}>{name}</p>
                 
 
