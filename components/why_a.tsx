@@ -14,8 +14,8 @@ export default function Why_a({}: Props) {
         option: 'left'},
 
         {title: 'NOWOCZESNE WYPOSAŻENIE',
-        desc: 'Nasz budynek znajduje się przy ulicy Józefa Szanajcy 5 500 metrów od Ronda Starzyńskiego oraz 1km od Dworca Wileńskiego',
-        img: '/sala.png',
+        desc: 'W naszej szkole są rozwiązania technologiczne, które umożliwiają nauczanie w nowoczesny sposób. <br/><br/> Są to interaktywne tablice multimedialne, sieć Wi-Fi, laboratoria z dostępem do sprzętu komputerowego oraz narzędzia edukacyjne online.',
+        img: '/wyp.jpg',
         imgHover: '/tablica.jpg',
         option: 'right'},
 
