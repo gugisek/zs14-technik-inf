@@ -113,7 +113,7 @@ Wojskowa Akademia Techniczna w Warszawie
         whileTap={{ scale: 0.9 }}
         
         id="kamil"
-        className={`${readMore ? 'bg-[#ffffff73] text-[#3d3d3d] transition-all duration-300' : 'bg-[#fdfdfd]'} flex flex-col lg:w-3/5 w-[90%] px-10 py-7 gap-5 justify-between items-center bg-white drop-shadow-2xl lg:rounded-[57px] rounded-[57px]`}>
+        className={`${readMore ? 'bg-[#ffffff73] text-[#3d3d3d] transition-all duration-300' : 'bg-[#fdfdfd]'} flex flex-col lg:w-3/5 w-[90%] px-10 py-7 gap-5 justify-between items-center drop-shadow-2xl lg:rounded-[57px] rounded-[57px]`}>
             <div  className='w-full justify-between items-center flex lg:flex-row flex-col'>
                 <div>
                     <p className='w-full text-[#3d3d3d] text-xl font-black'>
