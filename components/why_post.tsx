@@ -30,8 +30,8 @@ export default function Why_post({title, desc, img, imgHover, option}: Props) {
         className={`flex lg:flex-row flex-col-reverse lg:w-3/5 w-[90%] bg-white drop-shadow-[0_35px_35px_rgba(0,0,0,0.3)] lg:rounded-[57px] rounded-[57px]`}>
             <div className='lg:w-1/2 xl:max-h-96'>
                 <img src={imgHover} alt="" 
-                style={{height: '-webkit-fill-available;'}}
-                className={`${hover ? 'opacity-100 ' : ' opacity-0  h-0 '} w-full lg:w-1/2 absolute transition-all duration-300 object-cover lg:rounded-tl-[57px] rounded-bl-[57px] rounded-br-[57px] lg:rounded-br-[0px] lg:h-full h-[-webkit-fill-available]`} />
+                style={{height: '-webkit-fill-available'}}
+                className={`${hover ? 'opacity-100 ' : ' opacity-0  h-0 '} w-full lg:w-1/2 absolute transition-all duration-300 object-cover lg:rounded-tl-[57px] rounded-bl-[57px] rounded-br-[57px] lg:rounded-br-[0px] h-full`} />
                 <img src={img} alt="" className={`${hover ? 'opacity-0' : 'opacity-100'} w-full transition-all duration-300 object-cover lg:rounded-tl-[57px] rounded-bl-[57px] rounded-br-[57px] lg:rounded-br-[0px] lg:h-full h-1/3 `} />
             </div>
             <div className='lg:w-1/2 text-[#3d3d3d] py-9 lg:px-14 px-10'>
@@ -54,8 +54,8 @@ export default function Why_post({title, desc, img, imgHover, option}: Props) {
         className='flex lg:flex-row-reverse flex-col-reverse lg:w-3/5 w-[90%] bg-white drop-shadow-[0_35px_35px_rgba(0,0,0,0.3)] lg:rounded-[57px] rounded-[57px]'>
             <div className='lg:w-1/2'>
                 <img src={imgHover} alt="" 
-                style={{height: '-webkit-fill-available;'}}
-                className={`${hover ? 'opacity-100 ' : ' opacity-0  h-0 '} w-full lg:w-1/2 absolute transition-all duration-300 object-cover lg:rounded-tr-[57px] lg:rounded-br-[57px] rounded-br-[57px] rounded-bl-[57px] lg:rounded-bl-[0px] lg:h-full h-[-webkit-fill-available]`} />
+                style={{height: '-webkit-fill-available'}}
+                className={`${hover ? 'opacity-100 ' : ' opacity-0  h-0 '}w-full lg:w-1/2 absolute transition-all duration-300 object-cover lg:rounded-tr-[57px] lg:rounded-br-[57px] rounded-br-[57px] rounded-bl-[57px] lg:rounded-bl-[0px] h-full `} />
                 <img src={img} alt="" className={`${hover ? 'opacity-0' : 'opacity-100'} w-full transition-all duration-300 object-cover lg:rounded-tr-[57px] lg:rounded-br-[57px] rounded-br-[57px] rounded-bl-[57px] lg:rounded-bl-[0px] lg:h-full h-1/3`} />
             </div>
             <div className='lg:w-1/2 text-[#3d3d3d] py-9 lg:px-14 px-10'>

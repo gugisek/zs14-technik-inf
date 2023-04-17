@@ -30,6 +30,12 @@ export default function Why_a({}: Props) {
         img: '/nauczyciel.png',
         imgHover: '/nauczyciel2.jpg',
         option: 'right'},
+
+        {title: 'ATMOSFERA',
+        desc: 'W naszej szkole pracują wykwalifikowani nauczyciele, którzy są w stanie pomóc każdemu uczniowi w rozwoju jego umiejętności',
+        img: '/nauczyciel.png',
+        imgHover: '/nauczyciel2.jpg',
+        option: 'left'},
         
     ]
 
