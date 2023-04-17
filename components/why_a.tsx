@@ -8,7 +8,7 @@ export default function Why_a({}: Props) {
 
     const why = [
         {title: 'DOBRA LOKALIZACJA',
-        desc: 'Nasz budynek znajduje się przy ulicy <a href="https://goo.gl/maps/vNLbBdmXMoNf7bpE9" target="_blank" style="color: #959595; transition: all 0.3s" onMouseOver="this.style.color=`#000`" onMouseOut="this.style.color=`#959595`">Józefa Szanajcy 5</a><br/><br/> 500 metrów od <span style="color: #2EB4FF">Ronda Starzyńskiego</span> <br/>1km od <span style="color: #5AA5FF">Dworca Wileńskiego</span>',
+        desc: 'Nasz budynek znajduje się przy ulicy <a href="https://goo.gl/maps/vNLbBdmXMoNf7bpE9" target="_blank" style="color: #959595; transition: all 0.3s" onMouseOver="this.style.color=`#000`" onMouseOut="this.style.color=`#959595`">Józefa Szanajcy 5</a> na Warszawskiej Pradze Połnoc<br/><br/> 500 metrów od <span style="color: #2EB4FF">Ronda Starzyńskiego</span> <br/>1km od <span style="color: #5AA5FF">Dworca Wileńskiego</span>',
         img: '/map2.png',
         imgHover: '/budynek.png',
         option: 'left'},
@@ -16,31 +16,31 @@ export default function Why_a({}: Props) {
         {title: 'NOWOCZESNE WYPOSAŻENIE',
         desc: 'W naszej szkole są rozwiązania technologiczne, które umożliwiają nauczanie w nowoczesny sposób. <br/><br/> Są to: interaktywne tablice multimedialne, sieć Wi-Fi, laboratoria z dostępem do sprzętu komputerowego oraz narzędzia edukacyjne online.',
         img: '/wyp.jpg',
-        imgHover: '/sala12.jpg',
+        imgHover: '/sala12l.jpg',
         option: 'right'},
 
         {title: 'PRACOWNIE TECHNICZNE',
-        desc: 'Sale wyposażone są w <span style="color: #2EB4FF">tablice interaktywne</span>, <span style="color: #5AA5FF">projektory</span> oraz <span style="color: #959595">komputery</span> z dostępem do internetu',
-        img: '/sala13.jpg',
-        imgHover: '/sala14.jpg',
+        desc: 'Sale wyposażone są w <span style="color: #2EB4FF">tablice interaktywne</span>, <span style="color: #5AA5FF">projektory</span> oraz <span style="color: #959595">komputery</span> z dostępem do internetu. <br/><br/>W pracowniach znajdują się switche, routery firmy CISCO oraz profesjonalne zestawy narzędzi.',
+        img: '/sala13l.jpg',
+        imgHover: '/sala14l.jpg',
         option: 'left'},
 
-        {title: 'KADRA NAUCZYCIELSKA',
-        desc: 'W naszej szkole pracują wykwalifikowani nauczyciele, którzy są w stanie pomóc każdemu uczniowi w rozwoju jego umiejętności',
+        {title: '!KADRA NAUCZYCIELSKA',
+        desc: '!W naszej szkole pracują wykwalifikowani nauczyciele, którzy są w stanie pomóc każdemu uczniowi w rozwoju jego umiejętności',
         img: '/nauczyciel.png',
         imgHover: '/nauczyciel2.jpg',
         option: 'right'},
 
         {title: 'ATMOSFERA',
-        desc: 'W naszej szkole pracują wykwalifikowani nauczyciele, którzy są w stanie pomóc każdemu uczniowi w rozwoju jego umiejętności',
-        img: '/nauczyciel.png',
-        imgHover: '/nauczyciel2.jpg',
+        desc: 'Profesorzy angażują się w indywiduwalne wsparcie uczniów, umożliwia to rozwijanie zainteresowań, pasji oraz umiejętności miękkich ucznia. <br/><br/>Zawsze jest czas i miejsce na własne projekty i pomysły, a nauczyciele są gotowi pomóc w ich realizacji.',
+        img: '/atmosferal.jpg',
+        imgHover: '/szachy.jpeg',
         option: 'left'},
 
         {title: 'PRAKTYKI',
-        desc: 'W naszej szkole pracują wykwalifikowani nauczyciele, którzy są w stanie pomóc każdemu uczniowi w rozwoju jego umiejętności',
-        img: '/nauczyciel.png',
-        imgHover: '/nauczyciel2.jpg',
+        desc: 'Szkoła nawiązuje współprace z przedsiębiorstwami z branży IT, organizuje staże dla uczniów i zapewnia im dostęp do realnych zadań zawodowych. <br/><br/> Umożliwia to ucznią zdobycie praktycznego doświadczenia oraz zapoznania z wymaganiami runku pracy',
+        img: '/praktyki2.jpg',
+        imgHover: '/praktyki3l.jpg',
         option: 'right'},
         
     ]
