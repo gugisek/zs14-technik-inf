@@ -9,6 +9,8 @@ import Abilities_a from '@components/abilities_a'
 import Why from '@components/why'
 import Why_a from '@components/why_a'
 import Footer from '@components/footer'
+import Absolwents from '@components/absolwents'
+import Absolwents_a from '@components/absolwents_a'
 
 
 const inter = Lexend({ subsets: ['latin'] })
@@ -23,6 +25,8 @@ export default function Home() {
       <Abilities_a />
       <Why />
       <Why_a />
+      <Absolwents />
+      <Absolwents_a />
       <Footer />
       
     </section>

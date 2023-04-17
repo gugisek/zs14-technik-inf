@@ -13,7 +13,7 @@ export default function Abilities_a({}: Props) {
     const abilities = [
 
         {title: 'BUDOWA I SERWIS KOMPUTERÓW',
-        desc: 'Będziesz mógł złożyć swój własny komputer, <span style="color: #31939c">naprawiać</span> oraz <span style="color: #31939c">konfigurować</span> sprzęt komputerowy. <br/><br/> Poznasz podstawy elektroniki oraz fizyki, dzięki czemu będziesz rozumiał <span style="color: #31939c">technikę komputerową</span>..',
+        desc: 'Będziesz mógł złożyć swój własny komputer, <span style="color: #31939c">naprawiać</span> oraz <span style="color: #31939c">konfigurować</span> sprzęt komputerowy. <br/><br/> Poznasz podstawy elektroniki oraz fizyki, dzięki czemu będziesz rozumiał <span style="color: #31939c">technikę komputerową</span>.',
         img: '/serwis.jpg',
         imgHover: '/tablica.jpg',
         option: 'right'},
