@@ -83,6 +83,9 @@
   font-style: italic;
 }
 
+body {
+  overflow-x: hidden;
+}
 
 html {
   font-family: 'Roboto';
