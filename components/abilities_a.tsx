@@ -21,7 +21,7 @@ export default function Abilities_a({}: Props) {
         {title: 'PROGRAMOWANIE',
         desc: 'Znane Ci będą takie języki jak C++, Python, PHP, JavaScript, SQL, HTML, CSS. <br/><br/> Umożliwi Ci to <span style="color: #31939c">tworzenie oprogramowania</span> o określoncyh funkcjonalnościach i przeznaczeniu.',
         img: '/matil.jpg',
-        imgHover: '/programowanie2.jpg',
+        imgHover: '/programowanie2l.jpg',
         option: 'left'},
 
         {title: 'PROJEKTOWANIE WITRYN',
