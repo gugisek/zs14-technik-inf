@@ -14,15 +14,15 @@ export default function Why_a({}: Props) {
         option: 'left'},
 
         {title: 'NOWOCZESNE WYPOSAŻENIE',
-        desc: 'W naszej szkole są rozwiązania technologiczne, które umożliwiają nauczanie w nowoczesny sposób. <br/><br/> Są to interaktywne tablice multimedialne, sieć Wi-Fi, laboratoria z dostępem do sprzętu komputerowego oraz narzędzia edukacyjne online.',
+        desc: 'W naszej szkole są rozwiązania technologiczne, które umożliwiają nauczanie w nowoczesny sposób. <br/><br/> Są to: interaktywne tablice multimedialne, sieć Wi-Fi, laboratoria z dostępem do sprzętu komputerowego oraz narzędzia edukacyjne online.',
         img: '/wyp.jpg',
-        imgHover: '/tablica.jpg',
+        imgHover: '/sala12.jpg',
         option: 'right'},
 
         {title: 'PRACOWNIE TECHNICZNE',
         desc: 'Sale wyposażone są w <span style="color: #2EB4FF">tablice interaktywne</span>, <span style="color: #5AA5FF">projektory</span> oraz <span style="color: #959595">komputery</span> z dostępem do internetu',
-        img: '/sala.png',
-        imgHover: '/stanowisko2.jpg',
+        img: '/sala13.jpg',
+        imgHover: '/sala14.jpg',
         option: 'left'},
 
         {title: 'KADRA NAUCZYCIELSKA',
@@ -36,6 +36,12 @@ export default function Why_a({}: Props) {
         img: '/nauczyciel.png',
         imgHover: '/nauczyciel2.jpg',
         option: 'left'},
+
+        {title: 'PRAKTYKI',
+        desc: 'W naszej szkole pracują wykwalifikowani nauczyciele, którzy są w stanie pomóc każdemu uczniowi w rozwoju jego umiejętności',
+        img: '/nauczyciel.png',
+        imgHover: '/nauczyciel2.jpg',
+        option: 'right'},
         
     ]
 

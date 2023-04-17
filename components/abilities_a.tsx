@@ -14,13 +14,13 @@ export default function Abilities_a({}: Props) {
 
         {title: 'BUDOWA I SERWIS KOMPUTERÓW',
         desc: 'Będziesz mógł złożyć swój własny komputer, <span style="color: #31939c">naprawiać</span> oraz <span style="color: #31939c">konfigurować</span> sprzęt komputerowy. <br/><br/> Poznasz podstawy elektroniki oraz fizyki, dzięki czemu będziesz rozumiał <span style="color: #31939c">technikę komputerową</span>..',
-        img: '/sala.png',
+        img: '/serwis.jpg',
         imgHover: '/tablica.jpg',
         option: 'right'},
 
         {title: 'PROGRAMOWANIE',
         desc: 'Znane Ci będą takie języki jak C++, Python, PHP, JavaScript, SQL, HTML, CSS. <br/><br/> Umożliwi Ci to <span style="color: #31939c">tworzenie oprogramowania</span> o określoncyh funkcjonalnościach i przeznaczeniu.',
-        img: '/sala.png',
+        img: '/mati.jpg',
         imgHover: '/tablica.jpg',
         option: 'left'},
 
@@ -38,7 +38,7 @@ export default function Abilities_a({}: Props) {
 
         {title: 'SIECI KOMPUTEROWE',
         desc: 'Umięjętności projektowania, konfigurowania i utrzymywania sieci będą Twoje! <br/><br/> Będzesz umiał przeliczać adresy IP, maski oraz wdrażać podsieci na switche i routery.',
-        img: '/sala.png',
+        img: '/sieci.png',
         imgHover: '/tablica.jpg',
         option: 'right'},
 

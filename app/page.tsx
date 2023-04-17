@@ -15,7 +15,7 @@ const inter = Lexend({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <section className='bg-black text-white flex flex-col items-center justify-center gap-10 overscroll-y-none overflow-x-hidden' style={{backgroundImage: 'url(bg.svg)'}}>
+    <section className='bg-black text-white flex flex-col items-center justify-center gap-10 overscroll-y-none overflow-x-hidden bg-cover' style={{backgroundImage: 'url(bg.svg)'}}>
       <Hero />
       <Who />
       <Who_a />
