@@ -38,7 +38,7 @@ export default function Why_a({}: Props) {
         option: 'left'},
 
         {title: 'PRAKTYKI',
-        desc: 'Szkoła nawiązuje współprace z przedsiębiorstwami z branży IT, organizuje staże dla uczniów i zapewnia im dostęp do realnych zadań zawodowych. <br/><br/> Umożliwia to ucznią zdobycie praktycznego doświadczenia oraz zapoznania z wymaganiami runku pracy',
+        desc: 'Szkoła nawiązuje współprace z przedsiębiorstwami z branży IT, organizuje staże dla uczniów i zapewnia im dostęp do realnych zadań zawodowych. <br/><br/> Umożliwia to uczniom zdobycie praktycznego doświadczenia oraz zapoznania z wymaganiami runku pracy.',
         img: '/praktyki2.jpg',
         imgHover: '/praktyki3l.jpg',
         option: 'right'},
