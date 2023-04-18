@@ -28,7 +28,7 @@ export default function Why_post({title, desc, img, imgHover, option}: Props) {
         onMouseLeave={() => setHover(false)}
         onClick={() => setHover(!hover)}
         className={`flex lg:flex-row flex-col-reverse lg:w-3/5 w-[90%] bg-white drop-shadow-[0_35px_35px_rgba(0,0,0,0.3)] lg:rounded-[57px] rounded-[57px]`}>
-            <div className='lg:w-1/2 xl:max-h-96'>
+            <div className='lg:w-1/2 '>
                 <img src={imgHover} alt="" 
                 //style={{height: '-webkit-fill-available'}}
                 className={`${hover ? 'opacity-100 ' : ' opacity-0  h-0 '} w-full lg:w-1/2 absolute transition-all duration-300 object-cover lg:rounded-tl-[57px] rounded-bl-[57px] rounded-br-[57px] lg:rounded-br-[0px] lg:h-full h-[-webkit-fill-available]`} />

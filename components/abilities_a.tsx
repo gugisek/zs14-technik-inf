@@ -31,21 +31,21 @@ export default function Abilities_a({}: Props) {
         option: 'right'},
 
         {title: 'ADMINISTROWANIE SYSTEMAMI',
-        desc: 'Będziesz mógł konfigurować oraz zarządzać infrastrukturą IT, podstawy linux oraz windows serwer nie będą Ci obce. <br/><br/>Nauczysz się umieszczać strony na serwerze które wcześniej sam wykonasz.',
+        desc: 'Będziesz mógł konfigurować oraz zarządzać infrastrukturą IT, podstawy <span style="color: #9c3197">linux</span> oraz <span style="color: #9c3197">windows serwer</span> nie będą Ci obce. <br/><br/>Nauczysz się umieszczać strony na serwerze które wcześniej sam wykonasz.',
         img: '/administrowanie2l.jpg',
         imgHover: '/administrowaniel.jpg',
         option: 'left'},
 
         {title: 'SIECI KOMPUTEROWE',
-        desc: 'Umięjętności projektowania, konfigurowania i utrzymywania sieci będą Twoje! <br/><br/> Będzesz umiał przeliczać adresy IP, maski oraz wdrażać podsieci na switche i routery.',
+        desc: 'Umięjętności projektowania, konfigurowania i utrzymywania sieci będą Twoje! <br/><br/> Będzesz umiał przeliczać <span style="color: #9c3197">adresy IP</span>, maski oraz wdrażać podsieci na switche i routery.',
         img: '/sieci2.jpg',
         imgHover: '/sieci.png',
         option: 'right'},
 
-        {title: '!BAZY DANYCH',
+        {title: 'BAZY DANYCH',
         desc: 'Nabędziesz umiejętności pozwalające na <span style="color: #9c3197">projektowanie</span>, <span style="color: #3a319c">tworzenie</span> i <span style="color: #34a3c8">utrzymywanie</span> baz danych oraz ich interfejsów, zarządzania i analizowania danych, a także rozwiązywania problemów związanych z bazami danych.',
-        img: '/bazy3.jpg',
-        imgHover: '/bazy2l.jpg',
+        img: '/bazy_kakor.jpg',
+        imgHover: '/bazy3.jpg',
         option: 'left'},
         
 
@@ -66,7 +66,7 @@ export default function Abilities_a({}: Props) {
         <section className='flex flex-col items-center justify-center gap-12'>
         {
             abilities.map((item, index) => (
-                <Why_post title={item.title} desc={item.desc} img={item.img} imgHover={item.imgHover} option={item.option} key={index} />
+                <Why_post title={item.title} desc={item.desc} img={item.img} imgHover={item.imgHover} option={index % 2 === 0 ? 'left' : 'right'} key={index} />
             ))
         }
         </section>

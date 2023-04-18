@@ -49,7 +49,7 @@ export default function Why_a({}: Props) {
     <section className='flex flex-col items-center justify-center gap-12'>
         {
             why.map((item, index) => (
-                <Why_post title={item.title} desc={item.desc} img={item.img} imgHover={item.imgHover} option={item.option} key={index} />
+                <Why_post title={item.title} desc={item.desc} img={item.img} imgHover={item.imgHover} option={index % 2 === 0 ? 'left' : 'right'} key={index} />
             ))
         }
     </section>
