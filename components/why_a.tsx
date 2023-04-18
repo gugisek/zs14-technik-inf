@@ -25,10 +25,10 @@ export default function Why_a({}: Props) {
         imgHover: '/sala14l.jpg',
         option: 'left'},
 
-        {title: '!KADRA NAUCZYCIELSKA',
-        desc: '!W naszej szkole pracują wykwalifikowani nauczyciele, którzy są w stanie pomóc każdemu uczniowi w rozwoju jego umiejętności',
-        img: '/nauczyciel.png',
-        imgHover: '/nauczyciel2.jpg',
+        {title: 'KADRA NAUCZYCIELSKA',
+        desc: 'Nauczyciele w naszej szkole to eksperci, którzy pomogą Ci zdobyć praktyczne umiejętności i wiedzę z zakresu programowania, sieci komputerowych i innych zagadnień związanych z technologią informacyjną. <br/><br/>Nauczyciele ci są odpowiedzialni za prowadzenie zajęć praktycznych i teoretycznych oraz wspieranie uczniów w rozwijaniu ich kreatywności i innowacyjnych pomysłów.',
+        img: '/nauczyciel.jpg',
+        imgHover: '/nauczyciel.jpg',
         option: 'right'},
 
         {title: 'ATMOSFERA',
