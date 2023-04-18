@@ -37,7 +37,7 @@ Podsumowując, zawód technika informatyka to praca wymagająca, ale również b
         <br/> <br/>
         Jest on odpowiedzialny jest za <span className='text-[#704BDA]'>konfigurowanie i administrowanie</span> wewnętrzną siecią firmową, ale jego obowiązkiem jest również dbanie o <span className='text-[#C15FCA]'>cyberbezpieczeństwo</span>.
          */}
-Jako technik informatyk, osoba ta pełni <span className='text-[#704BDA]'>ważną rolę w każdej firmie</span>, która korzysta z systemów informatycznych. <br></br>To on dba o to, żeby komputery, sieci i oprogramowanie działały sprawnie i bezpiecznie. Jest to zawód wymagający zarówno wiedzy teoretycznej, jak i <span className='text-[#C15FCA]'>praktycznej</span>. <br/><br/>W trakcie nauki w technikum informatycznym, uczniowie poznają różne zagadnienia związane z informatyką, takie jak programowanie, sieci komputerowe, bazy danych, systemy operacyjne i <span className='text-[#704BDA]'>bezpieczeństwo informatyczne</span>.
+Jako technik informatyk będziesz pełnić <span className='text-[#704BDA]'>ważną rolę w każdej firmie</span>.<br></br>Będziesz dbać o to, żeby komputery, sieci i oprogramowanie działały sprawnie i bezpiecznie. Jest to zawód wymagający zarówno wiedzy teoretycznej, jak i <span className='text-[#C15FCA]'>praktycznej</span>. <br/><br/>W trakcie nauki w technikum informatycznym, uczniowie poznają różne zagadnienia związane z informatyką, takie jak programowanie, sieci komputerowe, bazy danych, systemy operacyjne i <span className='text-[#704BDA]'>bezpieczeństwo informatyczne</span>.
 <br/><br/>
 
         {
